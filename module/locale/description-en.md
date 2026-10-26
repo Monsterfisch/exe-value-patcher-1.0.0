@@ -7,7 +7,7 @@ Crusader Extreme.
 
 ## Usage
 
-All values live in a YAML config file, by default `config.yml` in this module's folder.
+All values live in a YAML config file, by default `values.yml` in this module's folder.
 It has two lists, `extreme` and `vanilla`, with the same entries under the same names;
 only the addresses differ. The module applies the list for the exe you run.
 
@@ -16,7 +16,7 @@ game's `default`. If the exe does not hold the default at that address, the UCP 
 so. Addresses below `0x400000` are treated as file offsets, so entries from Balanceprog's
 `config.json` can be pasted in as they are.
 
-To keep your own copy safe from module updates, copy `config.yml` somewhere else and
+To keep your own copy safe from module updates, copy `values.yml` somewhere else and
 select it in the option above.
 
 ## Building denial ranges

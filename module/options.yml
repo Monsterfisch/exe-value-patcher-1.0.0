@@ -16,4 +16,4 @@ options:
       type: string
       generalizeExtensionPaths: true
       filter: files
-      value: 'ucp/modules/exe-value-patcher-*/config.yml'
+      value: 'ucp/modules/exe-value-patcher-*/values.yml'
